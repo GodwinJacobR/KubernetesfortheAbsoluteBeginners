@@ -1,1 +1,25 @@
 https://www.udemy.com/course/learn-kubernetes/
+
+
+containers:
+cannot migrate containers between Linux and Windows OS.
+
+
+container orchestration: kubernetes
+
+master and worker nodes
+
+master:
+api server - management, CLIs 
+etcd - key value store (master)
+scheduler - distribute to worker nodes
+controller - orchestration
+
+worker:
+container runtime - (docker)
+kubelet - agent running on each worker node
+
+kubectl - deploy and manage apps and retrieve cluster info
+    kubectl run hello-minikube
+    kubectl cluster-info
+    kubectl get nodes
