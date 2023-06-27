@@ -1,0 +1,5 @@
+
+//run nginx docker container
+kubectl run nginx
+
+kubectl get pods

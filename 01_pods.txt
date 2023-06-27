@@ -1,0 +1,12 @@
+kubectl run nginx --image=nginx
+
+kubectl run nginx --image=nginx --dry-run=client -o yaml
+
+kubectl describe pod <pod_name>
+kubectl delete  pod <pod_name>
+
+kubectl get pods -o wide
+
+kubectl create -f .\files\pod-definition.yml
+kubectl apply -f .\files\pod-definition.yml
+

@@ -23,3 +23,7 @@ kubectl - deploy and manage apps and retrieve cluster info
     kubectl run hello-minikube
     kubectl cluster-info
     kubectl get nodes
+
+containers are encapsulated in a pod
+
+Replication controller is replaced by replica set
